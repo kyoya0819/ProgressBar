@@ -11,6 +11,12 @@ final class ProgressBar
     private string $char;
 
 
+    /**
+     * ProgressBar constructor.
+     *
+     * @param int $width
+     * @param string $char
+     */
     public function __construct(int $width = 50, string $char = "=")
     {
         $this->width = $width;
@@ -20,6 +26,8 @@ final class ProgressBar
 
 
     /**
+     * Update basic information on the progress bar.
+     *
      * @param string $variable_name
      * @param string $value
      * @return ProgressBar
@@ -43,6 +51,8 @@ final class ProgressBar
 
 
     /**
+     * View the progress bar.
+     *
      * @param int $done
      * @param int $total
      * @param string $info
