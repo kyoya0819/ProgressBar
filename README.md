@@ -24,5 +24,5 @@ for ($i = 1; $i <= 100; $i++) {
 
 ### LICENSE
 
-[MIT LICENSE](https://github.com/kyoya0819/ProgressBar/blob/dev/LICENSE)
+[MIT LICENSE](https://github.com/kyoya0819/ProgressBar/blob/1.x/LICENSE)
 
