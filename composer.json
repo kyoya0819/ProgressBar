@@ -1,0 +1,20 @@
+{
+    "name": "kyoya0819/progress-bar",
+    "description": "Very simple progress bar script.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kyoya0819",
+            "email": "kyoya0819@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "kyoya0819\\ProgressBar\\": "src/"
+        }
+    }
+}
