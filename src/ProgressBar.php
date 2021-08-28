@@ -69,7 +69,7 @@ final class ProgressBar
 
 
         $percent = str_pad($percent, 3, " ", STR_PAD_LEFT) . '%';
-        $progress = str_repeat("=", $bar);
+        $progress = str_repeat($this->char, $bar);
         $progress_blank = str_repeat(" ", $this->width - $bar);
         $info_blank = str_repeat(" ", $this->info_max_length - mb_strlen($info));
 
